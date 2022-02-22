@@ -1,0 +1,210 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Lobster:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Subrayada:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
+@font-face {
+	font-family: "Rubik";
+	src: url("../fonts/Rubik-Regular.woff2") format("woff2"), url("../fonts/Rubik-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Rubik";
+	src: url("../fonts/Rubik-SemiBold.woff2") format("woff2"), url("../fonts/Rubik-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Rubik";
+	src: url("../fonts/Rubik-Black.woff2") format("woff2"), url("../fonts/Rubik-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wrapper {
+	font-family: "Rubik", sans-serif;
+	font-weight: 400;
+	min-height: 100%;
+	overflow: hidden;
+	padding: 100px 100px 0 100px;
+	background-color: rgba(0, 0, 255, 0.527);
+}
+h1 {
+	font-family: "Lobster", sans-serif;
+	font-size: 35px;
+	max-width: 200px;
+	margin: 0 auto 40px auto;
+	color: aquamarine;
+	text-shadow: 5px 7px 6px green;
+}
+header {
+	margin-bottom: 150px;
+}
+header p {
+	color: yellow;
+	line-height: 2;
+	text-shadow: 3px 5px 7px black;
+	font-size: 29px;
+	max-width: 400px;
+	margin: 0 auto 50px auto;
+	border: 2px solid blue;
+	border-radius: 10px;
+	background-color: blue;
+	padding: 10px;
+}
+.begin {
+	max-width: 150px;
+	font-size: 20px;
+	display: block;
+	padding: 15px;
+	border: 1px solid rgba(255, 68, 0, 0.829);
+	background-color: rgba(255, 68, 0, 0.829);
+	color: aqua;
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: 0 10px 0 0 black;
+	margin-bottom: 20px;
+}
+.begin:active {
+	margin: 4px 0px 0px 0px;
+	box-shadow: 0 0px 0 0 #000, inset 0 0px 5px 0 #000;
+}
+main {
+	background-color: white;
+	border: 2px solid gray;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+.first-step {
+	background-color: red;
+	min-height: 50px;
+	max-width: 50px;
+}
+
+.second-step {
+	background-color: white;
+	margin-left: 665px;
+	min-height: 80px;
+	width: 35px;
+	margin-bottom: -30px;
+}
+
+.third-step {
+	background-color: white;
+	margin-left: 80px;
+	min-height: 30px;
+	max-width: 585px;
+	/* margin-bottom: -20px; */
+}
+.fourth-step {
+	background-color: white;
+	margin-left: 80px;
+	min-height: 80px;
+	max-width: 25px;
+	margin-bottom: -20px;
+}
+.fifth-step {
+	background-color: white;
+	margin-left: 105px;
+	max-width: 375px;
+	min-height: 20px;
+}
+.sixth-step {
+	background-color: white;
+	max-width: 15px;
+	min-height: 100px;
+	margin-left: 465px;
+	margin-bottom: -10px;
+}
+.seventh-step {
+	background-color: white;
+	min-height: 10px;
+	max-width: 435px;
+	margin-left: 30px;
+}
+.eightth-step {
+	background-color: white;
+	min-height: 250px;
+	max-width: 5px;
+	margin-left: 30px;
+	margin-bottom: -5px;
+}
+.ninetth-step {
+	background-color: white;
+	min-height: 5px;
+	max-width: 10px;
+	margin-left: 35px;
+	margin-bottom: 40px;
+}
+
+.first-step:hover {
+	background-color: red;
+	min-height: 50px;
+	max-width: 700px;
+}
+.second-step:hover {
+	background-color: red;
+	margin-left: 665px;
+	min-height: 80px;
+	width: 35px;
+}
+
+.third-step:hover {
+	background-color: red;
+	margin-left: 80px;
+	min-height: 30px;
+	max-width: 620px;
+}
+.fourth-step:hover {
+	background-color: red;
+	margin-left: 80px;
+	min-height: 80px;
+	max-width: 25px;
+}
+.fifth-step:hover {
+	background-color: red;
+	margin-left: 80px;
+	max-width: 400px;
+	min-height: 20px;
+}
+.sixth-step:hover {
+	background-color: red;
+	max-width: 15px;
+	min-height: 100px;
+	margin-left: 465px;
+}
+.seventh-step:hover {
+	background-color: red;
+	min-height: 10px;
+	max-width: 450px;
+	margin-left: 30px;
+}
+.eightth-step:hover {
+	background-color: red;
+	min-height: 250px;
+	max-width: 5px;
+	margin-left: 30px;
+}
+.ninetth-step:hover {
+	background-color: green;
+	min-height: 5px;
+	max-width: 10px;
+	margin-left: 30px;
+}
+.ninetth-step:active::after {
+	content: "Ти молодець)))";
+	font-family: "Lobster", sans-serif;
+	font-size: 45px;
+	display: block;
+	border: 2px solid orange;
+	color: aquamarine;
+	text-align: center;
+	padding: 5px;
+	background-color: orange;
+	width: 350px;
+	margin-top: -350px;
+	margin-left: 350px;
+}
